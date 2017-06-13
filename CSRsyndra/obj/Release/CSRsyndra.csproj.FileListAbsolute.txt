@@ -8,3 +8,4 @@ C:\Users\Toshiba\Desktop\ADDONS CSR\CSRsyndra\bin\Release\SharpDX.dll
 C:\Users\Toshiba\Desktop\ADDONS CSR\CSRsyndra\bin\Release\Newtonsoft.Json.dll
 C:\Users\Toshiba\Desktop\ADDONS CSR\CSRsyndra\obj\Release\CSRsyndra.exe
 C:\Users\Toshiba\Desktop\ADDONS CSR\CSRsyndra\obj\Release\CSRsyndra.pdb
+C:\Users\Toshiba\Desktop\ADDONS CSR\CSRsyndra\obj\Release\CSRsyndra.csprojResolveAssemblyReference.cache
