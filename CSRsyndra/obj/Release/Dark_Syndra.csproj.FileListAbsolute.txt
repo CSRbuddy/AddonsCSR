@@ -1,0 +1,22 @@
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Dark_Syndra\Dark_Syndra\bin\Release\Dark_Syndra.exe.config
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Dark_Syndra\Dark_Syndra\bin\Release\Dark_Syndra.exe
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Dark_Syndra\Dark_Syndra\bin\Release\Dark_Syndra.pdb
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Dark_Syndra\Dark_Syndra\obj\Release\Dark_Syndra.exe
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Dark_Syndra\Dark_Syndra\obj\Release\Dark_Syndra.pdb
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Dark_Syndra\Dark_Syndra\obj\Release\Dark_Syndra.csprojResolveAssemblyReference.cache
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Dark_Syndra\Dark_Syndra\bin\Release\EloBuddy.dll
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Dark_Syndra\Dark_Syndra\bin\Release\EloBuddy.SDK.dll
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Dark_Syndra\Dark_Syndra\bin\Release\SharpDX.Direct3D9.dll
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Dark_Syndra\Dark_Syndra\bin\Release\SharpDX.dll
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Dark_Syndra\Dark_Syndra\bin\Release\Newtonsoft.Json.dll
+C:\Users\Toshiba\Desktop\Github\Dark_Syndra\bin\Release\Dark_Syndra.exe.config
+C:\Users\Toshiba\Desktop\Github\Dark_Syndra\bin\Release\Dark_Syndra.exe
+C:\Users\Toshiba\Desktop\Github\Dark_Syndra\bin\Release\Dark_Syndra.pdb
+C:\Users\Toshiba\Desktop\Github\Dark_Syndra\bin\Release\EloBuddy.dll
+C:\Users\Toshiba\Desktop\Github\Dark_Syndra\bin\Release\EloBuddy.SDK.dll
+C:\Users\Toshiba\Desktop\Github\Dark_Syndra\bin\Release\SharpDX.Direct3D9.dll
+C:\Users\Toshiba\Desktop\Github\Dark_Syndra\bin\Release\SharpDX.dll
+C:\Users\Toshiba\Desktop\Github\Dark_Syndra\bin\Release\Newtonsoft.Json.dll
+C:\Users\Toshiba\Desktop\Github\Dark_Syndra\obj\Release\Dark_Syndra.csprojResolveAssemblyReference.cache
+C:\Users\Toshiba\Desktop\Github\Dark_Syndra\obj\Release\Dark_Syndra.exe
+C:\Users\Toshiba\Desktop\Github\Dark_Syndra\obj\Release\Dark_Syndra.pdb

@@ -1,0 +1,15 @@
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Dark_Syndra\Dark_Syndra\bin\Debug\Dark_Syndra.exe.config
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Dark_Syndra\Dark_Syndra\bin\Debug\Dark_Syndra.exe
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Dark_Syndra\Dark_Syndra\bin\Debug\Dark_Syndra.pdb
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Dark_Syndra\Dark_Syndra\bin\Debug\Dark_Syndra.exe.CodeAnalysisLog.xml
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Dark_Syndra\Dark_Syndra\bin\Debug\Dark_Syndra.exe.lastcodeanalysissucceeded
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Dark_Syndra\Dark_Syndra\bin\Debug\EloBuddy.dll
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Dark_Syndra\Dark_Syndra\bin\Debug\EloBuddy.SDK.dll
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Dark_Syndra\Dark_Syndra\bin\Debug\Mario`s Lib.dll
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Dark_Syndra\Dark_Syndra\bin\Debug\SharpDX.Direct3D9.dll
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Dark_Syndra\Dark_Syndra\bin\Debug\SharpDX.dll
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Dark_Syndra\Dark_Syndra\bin\Debug\T2IN1 Lib.dll
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Dark_Syndra\Dark_Syndra\bin\Debug\Newtonsoft.Json.dll
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Dark_Syndra\Dark_Syndra\obj\Debug\Dark_Syndra.csprojResolveAssemblyReference.cache
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Dark_Syndra\Dark_Syndra\obj\Debug\Dark_Syndra.exe
+C:\Users\LADISLA\Documents\Visual Studio 2015\Projects\Dark_Syndra\Dark_Syndra\obj\Debug\Dark_Syndra.pdb
