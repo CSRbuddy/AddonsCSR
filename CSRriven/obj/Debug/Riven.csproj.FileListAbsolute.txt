@@ -1,0 +1,11 @@
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\Riven\Riven\bin\Debug\Riven.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\Riven\Riven\bin\Debug\Riven.exe
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\Riven\Riven\bin\Debug\Riven.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\Riven\Riven\bin\Debug\EloBuddy.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\Riven\Riven\bin\Debug\EloBuddy.SDK.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\Riven\Riven\bin\Debug\SharpDX.Direct3D9.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\Riven\Riven\bin\Debug\SharpDX.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\Riven\Riven\bin\Debug\EloBuddy.Sandbox.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\Riven\Riven\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\Riven\Riven\obj\Debug\Riven.exe
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\Riven\Riven\obj\Debug\Riven.pdb
