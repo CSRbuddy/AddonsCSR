@@ -9,3 +9,15 @@ C:\Users\Toshiba\Desktop\ADDONS CSR\CSRsyndra\bin\Release\Newtonsoft.Json.dll
 C:\Users\Toshiba\Desktop\ADDONS CSR\CSRsyndra\obj\Release\CSRsyndra.exe
 C:\Users\Toshiba\Desktop\ADDONS CSR\CSRsyndra\obj\Release\CSRsyndra.pdb
 C:\Users\Toshiba\Desktop\ADDONS CSR\CSRsyndra\obj\Release\CSRsyndra.csprojResolveAssemblyReference.cache
+C:\Users\Toshiba\Desktop\AddonsCSR-master\CSRsyndra\bin\Release\CSRsyndra.exe.config
+C:\Users\Toshiba\Desktop\AddonsCSR-master\CSRsyndra\bin\Release\CSRsyndra.exe
+C:\Users\Toshiba\Desktop\AddonsCSR-master\CSRsyndra\bin\Release\CSRsyndra.pdb
+C:\Users\Toshiba\Desktop\AddonsCSR-master\CSRsyndra\bin\Release\EloBuddy.dll
+C:\Users\Toshiba\Desktop\AddonsCSR-master\CSRsyndra\bin\Release\EloBuddy.Sandbox.dll
+C:\Users\Toshiba\Desktop\AddonsCSR-master\CSRsyndra\bin\Release\EloBuddy.SDK.dll
+C:\Users\Toshiba\Desktop\AddonsCSR-master\CSRsyndra\bin\Release\SharpDX.Direct3D9.dll
+C:\Users\Toshiba\Desktop\AddonsCSR-master\CSRsyndra\bin\Release\SharpDX.dll
+C:\Users\Toshiba\Desktop\AddonsCSR-master\CSRsyndra\bin\Release\Newtonsoft.Json.dll
+C:\Users\Toshiba\Desktop\AddonsCSR-master\CSRsyndra\obj\Release\CSRsyndra.csprojResolveAssemblyReference.cache
+C:\Users\Toshiba\Desktop\AddonsCSR-master\CSRsyndra\obj\Release\CSRsyndra.exe
+C:\Users\Toshiba\Desktop\AddonsCSR-master\CSRsyndra\obj\Release\CSRsyndra.pdb

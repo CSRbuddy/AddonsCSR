@@ -5,6 +5,7 @@ using EloBuddy;
 using EloBuddy.SDK.Menu;
 using EloBuddy.SDK.Menu.Values;
 using static CSRsyndra.Skins;
+using CSRsyndra.Managers;
 using EloBuddy.SDK;
 
 namespace CSRsyndra
@@ -41,13 +42,14 @@ namespace CSRsyndra
             KillStealMenu = FirstMenu.AddSubMenu("+ Killsteal +");
             DrawingsMenu = FirstMenu.AddSubMenu("+ Drawings +", DrawingsMenuId);
             MiscMenu = FirstMenu.AddSubMenu("+ Misc +", MiscMenuId);
-
-
-           ComboMenu.AddGroupLabel("Combo Settings");
+            
+            
+            ComboMenu.AddGroupLabel("Combo Settings");
             ComboMenu.Add("Q", new CheckBox("- Use Q"));
             ComboMenu.Add("W", new CheckBox("- Use W"));
             ComboMenu.Add("QE", new CheckBox("- Use Q - E"));
             ComboMenu.Add("R", new CheckBox("- Use R"));
+            ComboMenu.Add("ItemManager.ZhonyasHourglass", new CheckBox("- Use when you go died Zhonya"));
             ComboMenu.AddSeparator();
             ComboMenu.AddLabel("R usage on");
             foreach (var Enemy in EntityManager.Heroes.Enemies)
@@ -56,6 +58,7 @@ namespace CSRsyndra
             }
             ComboMenu.AddSeparator();
             ComboMenu.Add("Ignite", new CheckBox("- Use Ignite"));
+            ComboMenu.Add("Managers.YasuoWallManager", new CheckBox("- No R when Yasuo use Wall"));
 
             HarassMenu.AddGroupLabel("Harass Settings");
             HarassMenu.Add("Q", new CheckBox("- Use Q"));

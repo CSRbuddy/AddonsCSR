@@ -1,6 +1,8 @@
 ﻿using EloBuddy;
 using EloBuddy.SDK;
+using EloBuddy.SDK.Enumerations;
 using EloBuddy.SDK.Menu.Values;
+using EloBuddy.SDK.Events;
 using System;
 using System.Linq;
 using static CSRsyndra.Menus;
@@ -32,6 +34,8 @@ namespace CSRsyndra
                 SpellsManager.Q.Cast(Player.Instance.Position.Extend(pred.CastPosition, SpellsManager.E.Range - 10).To3D());
                 SpellsManager.E.Cast(Player.Instance.Position.Extend(pred.CastPosition, SpellsManager.E.Range - 10).To3D());
                 
+
+
             }
 
             if (ComboMenu["Q"].Cast<CheckBox>().CurrentValue && target.IsValidTarget(SpellsManager.Q.Range) && SpellsManager.Q.IsReady())
@@ -47,8 +51,20 @@ namespace CSRsyndra
                 SpellsManager.R.Cast(target);
             }
 
-            //Cast W
-            if (ComboMenu["W"].Cast<CheckBox>().CurrentValue && target.IsValidTarget(SpellsManager.W.Range) && SpellsManager.W.IsReady())
+            //Cast E
+            if (ComboMenu["E"].Cast<CheckBox>().CurrentValue && target.IsValidTarget(SpellsManager.E.Range) && SpellsManager.E.IsReady())
+            {
+                var pred = SpellsManager.E.GetPrediction(target);
+                SpellsManager.E.Cast(Player.Instance.Position.Extend(pred.CastPosition, SpellsManager.Q.Range - 10).To3D());
+                SpellsManager.E.Cast(Player.Instance.Position.Extend(pred.CastPosition, SpellsManager.E.Range - 10).To3D());
+                if (target != null)
+                {
+                    CastE(target, SpellsManager.QE, SpellsManager.E);
+                }
+            }
+
+                //Cast W
+                if (ComboMenu["W"].Cast<CheckBox>().CurrentValue && target.IsValidTarget(SpellsManager.W.Range) && SpellsManager.W.IsReady())
             {
                 var pred = SpellsManager.W.GetPrediction(target);
 
@@ -63,6 +79,8 @@ namespace CSRsyndra
                     lastWCast = Environment.TickCount;
 
                 }
+                
+                
 
             }
 
@@ -79,6 +97,10 @@ namespace CSRsyndra
                         Ignite.Cast(Summ);
 
 
+        }
+private static void CastE(AIHeroClient target, object useQE, object useWE)
+        {
+            throw new NotImplementedException();
         }
 
         public static Spell.Targeted Ignite = new Spell.Targeted(ReturnSlot("summonerdot"), 600);

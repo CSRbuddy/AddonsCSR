@@ -66,8 +66,9 @@ namespace CSRsyndra
                     break;
                         case SpellSlot.R:
                          if (R.IsReady())
-                         dmg += new float[] { 270, 405, 540 }[sLevel] + 0.6f * ap + (BallsCount() + 0.2f * ap);
-                        break;
+                         dmg += new float[] { 270, 405, 540 }[sLevel] + 0.6f * ap + (BallsCount+ 0.2f * ap);
+                         dmg += (new float[] { 90, 135, 180 }[BallsCount] + 0.2f * ap);
+                    break;
             }
             return Player.Instance.CalculateDamageOnUnit(target, damageType, dmg - 10);
 
@@ -80,13 +81,16 @@ namespace CSRsyndra
             var index = Player.GetSpell(SpellSlot.R).Level - 1;
             var mindmg = new float[] { 270, 405, 540 }[index] + 0.6f * ap;
             var maxdmg = new float[] { 630, 975, 1260 }[index] + 1.4f * ap;
-            var perballdmg = (new float[] { 90, 135, 180 }[index] + 0.2f * ap) * BallsCount();
+            var perballdmg = (new float[] { 90, 135, 180 }[index] + 0.2f * ap) * BallsCount;
 
             return Player.Instance.CalculateDamageOnUnit(rtarget, DamageType.Magical, Math.Min(mindmg, maxdmg) + perballdmg);
         }
-        public static int BallsCount()
+        public static int BallsCount
         {
-            return ObjectManager.Get<Obj_AI_Base>().Count(a => a.Name == "Seed" && a.IsValid && !a.IsDead);
+            get
+            {
+                return ObjectManager.Get<Obj_AI_Base>().Count(a => a.Name == "Seed" && a.IsValid && !a.IsDead);
+            }
         }
 
         public static float GetTotalDamage(this Obj_AI_Base target)
