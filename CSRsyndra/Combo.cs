@@ -50,21 +50,9 @@ namespace CSRsyndra
             {
                 SpellsManager.R.Cast(target);
             }
-
-            //Cast E
-            if (ComboMenu["E"].Cast<CheckBox>().CurrentValue && target.IsValidTarget(SpellsManager.E.Range) && SpellsManager.E.IsReady())
-            {
-                var pred = SpellsManager.E.GetPrediction(target);
-                SpellsManager.E.Cast(Player.Instance.Position.Extend(pred.CastPosition, SpellsManager.Q.Range - 10).To3D());
-                SpellsManager.E.Cast(Player.Instance.Position.Extend(pred.CastPosition, SpellsManager.E.Range - 10).To3D());
-                if (target != null)
-                {
-                    CastE(target, SpellsManager.QE, SpellsManager.E);
-                }
-            }
-
+            
                 //Cast W
-                if (ComboMenu["W"].Cast<CheckBox>().CurrentValue && target.IsValidTarget(SpellsManager.W.Range) && SpellsManager.W.IsReady())
+            if (ComboMenu["W"].Cast<CheckBox>().CurrentValue && target.IsValidTarget(SpellsManager.W.Range) && SpellsManager.W.IsReady())
             {
                 var pred = SpellsManager.W.GetPrediction(target);
 
@@ -98,11 +86,7 @@ namespace CSRsyndra
 
 
         }
-private static void CastE(AIHeroClient target, object useQE, object useWE)
-        {
-            throw new NotImplementedException();
-        }
-
+        
         public static Spell.Targeted Ignite = new Spell.Targeted(ReturnSlot("summonerdot"), 600);
 
         public static SpellSlot ReturnSlot(string Name)
