@@ -67,7 +67,8 @@ namespace CSRsyndra
                     break;
                 case SpellSlot.R:
                     if (R.IsReady())
-                        dmg += new float[] { 270, 405, 540 }[sLevel] + 0.6f * ap + (BallsCount() + 0.2f * ap);
+                        return (BallsCount() + 3) * Player.Instance.CalculateDamageOnUnit(target, DamageType.Magical,
+                        45f * sLevel + 45f + 0.2f * Player.Instance.FlatMagicDamageMod);
                     break;
             }
             return Player.Instance.CalculateDamageOnUnit(target, damageType, dmg - 10);
