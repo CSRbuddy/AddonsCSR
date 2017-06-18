@@ -1,8 +1,6 @@
 ﻿using EloBuddy;
 using EloBuddy.SDK;
-using EloBuddy.SDK.Enumerations;
 using EloBuddy.SDK.Menu.Values;
-using EloBuddy.SDK.Events;
 using System;
 using System.Linq;
 using static CSRsyndra.Menus;
@@ -20,7 +18,7 @@ namespace CSRsyndra
 
         public static void Execute()
         {
-            
+
 
 
             var target = TargetSelector.GetTarget(SpellsManager.W.Range, DamageType.Magical);
@@ -33,16 +31,14 @@ namespace CSRsyndra
                 var pred = SpellsManager.Q.GetPrediction(target);
                 SpellsManager.Q.Cast(Player.Instance.Position.Extend(pred.CastPosition, SpellsManager.E.Range - 10).To3D());
                 SpellsManager.E.Cast(Player.Instance.Position.Extend(pred.CastPosition, SpellsManager.E.Range - 10).To3D());
-                
-
 
             }
 
             if (ComboMenu["Q"].Cast<CheckBox>().CurrentValue && target.IsValidTarget(SpellsManager.Q.Range) && SpellsManager.Q.IsReady())
-                {
-                    var pred = SpellsManager.Q.GetPrediction(target);
-                    SpellsManager.Q.Cast(pred.CastPosition);
-                }
+            {
+                var pred = SpellsManager.Q.GetPrediction(target);
+                SpellsManager.Q.Cast(pred.CastPosition);
+            }
 
             if (ComboMenu[target.ChampionName].Cast<CheckBox>().CurrentValue && SpellsManager.R.IsReady() && target.IsValidTarget(SpellsManager.R.Range) && !target.HasUndyingBuff() &&
                 Prediction.Health.GetPrediction(target, SpellsManager.R.CastDelay) <=
@@ -50,8 +46,8 @@ namespace CSRsyndra
             {
                 SpellsManager.R.Cast(target);
             }
-            
-                //Cast W
+
+            //Cast W
             if (ComboMenu["W"].Cast<CheckBox>().CurrentValue && target.IsValidTarget(SpellsManager.W.Range) && SpellsManager.W.IsReady())
             {
                 var pred = SpellsManager.W.GetPrediction(target);
@@ -67,8 +63,6 @@ namespace CSRsyndra
                     lastWCast = Environment.TickCount;
 
                 }
-                
-                
 
             }
 
@@ -86,7 +80,7 @@ namespace CSRsyndra
 
 
         }
-        
+
         public static Spell.Targeted Ignite = new Spell.Targeted(ReturnSlot("summonerdot"), 600);
 
         public static SpellSlot ReturnSlot(string Name)
@@ -95,6 +89,6 @@ namespace CSRsyndra
         }
     }
 }
-    
+
 
 

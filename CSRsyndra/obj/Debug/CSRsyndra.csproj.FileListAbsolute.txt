@@ -34,3 +34,6 @@ C:\Users\Toshiba\Desktop\AddonsCSR-master\CSRsyndra\obj\Debug\CSRsyndra.pdb
 C:\Users\Toshiba\Desktop\AddonsCSR-master\CSRsyndra\bin\Debug\EloBuddy.Networking.dll
 C:\Users\Toshiba\Desktop\AddonsCSR-master\CSRsyndra\bin\Debug\EloBuddy.Sandbox.dll
 C:\Users\Toshiba\Desktop\AddonsCSR-master\CSRsyndra\obj\Debug\CSRsyndra.csproj.CSRsyndra.exe.config
+C:\Users\Toshiba\Desktop\ADDONS CSR\CSRsyndra\bin\Debug\EloBuddy.Networking.dll
+C:\Users\Toshiba\Desktop\ADDONS CSR\CSRsyndra\bin\Debug\EloBuddy.Sandbox.dll
+C:\Users\Toshiba\Desktop\ADDONS CSR\CSRsyndra\obj\Debug\CSRsyndra.csproj.CSRsyndra.exe.config
