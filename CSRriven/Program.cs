@@ -117,8 +117,9 @@ namespace CSRriven
             ComboMenu.Add("ECombo", new CheckBox("Use E"));
             ComboMenu.Add("RCombo", new CheckBox("Use R"));
             ComboMenu.Add("R2Combo", new CheckBox("Use R2(enemy killable)"));
+            ComboMenu.Add("YasuoWallManager", new CheckBox("Block R When Yasuo Use Wall"));
             ComboMenu.Add("FlashW", new KeyBind("Flash W", false, KeyBind.BindTypes.HoldActive, '5'));
-            ComboMenu.Add("FlashBurst", new KeyBind("Burst", false, KeyBind.BindTypes.HoldActive, 'G'));
+            ComboMenu.Add("FlashBurst", new KeyBind("Burst", true, KeyBind.BindTypes.HoldActive, 'G'));
             ComboMenu.AddLabel("Burst = Select Target And Burst Key");
             ComboMenu.AddLabel("The flash has usesh");
             ComboMenu.AddLabel("If not perform without a flash");
