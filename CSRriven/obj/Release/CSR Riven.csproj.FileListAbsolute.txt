@@ -1,0 +1,12 @@
+C:\Users\Toshiba\Desktop\ADDONS CSR\CSRriven\bin\Release\BlessedRiven.exe.config
+C:\Users\Toshiba\Desktop\ADDONS CSR\CSRriven\bin\Release\BlessedRiven.exe
+C:\Users\Toshiba\Desktop\ADDONS CSR\CSRriven\bin\Release\BlessedRiven.pdb
+C:\Users\Toshiba\Desktop\ADDONS CSR\CSRriven\bin\Release\EloBuddy.dll
+C:\Users\Toshiba\Desktop\ADDONS CSR\CSRriven\bin\Release\EloBuddy.Sandbox.dll
+C:\Users\Toshiba\Desktop\ADDONS CSR\CSRriven\bin\Release\EloBuddy.SDK.dll
+C:\Users\Toshiba\Desktop\ADDONS CSR\CSRriven\bin\Release\Newtonsoft.Json.dll
+C:\Users\Toshiba\Desktop\ADDONS CSR\CSRriven\bin\Release\SharpDX.Direct3D9.dll
+C:\Users\Toshiba\Desktop\ADDONS CSR\CSRriven\bin\Release\SharpDX.dll
+C:\Users\Toshiba\Desktop\ADDONS CSR\CSRriven\obj\Release\BlessedRiven.exe
+C:\Users\Toshiba\Desktop\ADDONS CSR\CSRriven\obj\Release\BlessedRiven.pdb
+C:\Users\Toshiba\Desktop\ADDONS CSR\CSRriven\obj\Release\CSR Riven.csprojResolveAssemblyReference.cache
